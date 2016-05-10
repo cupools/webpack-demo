@@ -1,0 +1,14 @@
+{
+  "name": "webpack-zepto",
+  "homepage": "https://github.com/RexMorgan/webpack-zepto",
+  "_release": "921d2e39b1",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "921d2e39b183d4bd06aca10c3aa12168a12511bc"
+  },
+  "_source": "git@github.com:RexMorgan/webpack-zepto.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:RexMorgan/webpack-zepto.git",
+  "_direct": true
+}
