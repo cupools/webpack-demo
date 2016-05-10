@@ -1,0 +1,1 @@
+webpackJsonp([3],[,function(e,n){},function(e,n){},,,function(e,n,t){"use strict";function u(e){return e&&e.__esModule?e:{"default":e}}Object.defineProperty(n,"__esModule",{value:!0}),n["default"]=function(){(0,f["default"])("body").append("log.js works")};var o=t(4),f=u(o)}]);

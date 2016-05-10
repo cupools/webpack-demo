@@ -7,7 +7,7 @@ module.exports = {
     module: {
         loaders: [{
             test: /\.scss$/,
-            loader: 'style!css?sourceMap!sass?sourceMap'
+            loader: 'style!css!sass'
         }]
     }
 };

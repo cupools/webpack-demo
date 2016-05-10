@@ -68,8 +68,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/sass-loader/index.js?sourceMap!./style.scss", function() {
-				var newContent = require("!!./../../node_modules/css-loader/index.js?sourceMap!./../../node_modules/sass-loader/index.js?sourceMap!./style.scss");
+			module.hot.accept("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./style.scss", function() {
+				var newContent = require("!!./../../node_modules/css-loader/index.js!./../../node_modules/sass-loader/index.js!./style.scss");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -87,7 +87,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n  background: #ccc; }\n", "", {"version":3,"sources":["/./src/style.scss"],"names":[],"mappings":"AAAA;EACI,iBAAiB,EACpB","file":"style.scss","sourcesContent":["body {\n    background: #ccc;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "body {\n  background: #ccc; }\n", ""]);
 
 	// exports
 
