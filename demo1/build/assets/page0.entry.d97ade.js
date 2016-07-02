@@ -1,1 +1,0 @@
-webpackJsonp([0],[function(e,n,t){"use strict";function u(e){return e&&e.__esModule?e:{"default":e}}t(1),t(2),t(3);var o=t(4),p=u(o),a=t(5),d=u(a);(0,p["default"])("body").apppend("<p>zepto.min.js works</p>"),(0,d["default"])()},,,function(e,n){}]);
